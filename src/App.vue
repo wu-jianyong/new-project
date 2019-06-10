@@ -112,9 +112,9 @@
         <img src="../static/iphone.png" alt="" @click="iphoneDownload">
         <img src="../static/android.png" alt="" @click="androidDownload">
       </div>
-<!--      <div class="company">-->
-<!--        <img src="../static/company.png" alt="">-->
-<!--      </div>-->
+      <div class="company">
+        <img src="../static/company.png" alt="">
+      </div>
     </div>
   </div>
 </template>
@@ -237,7 +237,7 @@ export default {
   }
   .company img{
     width:62%
-    margin-top 14%
+    margin-top 10%
     margin-bottom 5%
   }
   .iphone{
